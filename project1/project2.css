@@ -1,0 +1,86 @@
+body{
+  font-family: arial;
+}
+header {
+  font-family: Copperplate, "Copperplate Gothic Light";
+  width: 800px;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  padding: 4px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-image: linear-gradient(white, lightgray);
+}
+nav {
+  width: 1000px;
+  background-color: lightblue;
+  margin: auto;
+  border: 1px solid black;
+  height: 128px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+section {
+  margin: auto;
+  width: 1000px;
+}
+figure{
+  width: 50%;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  padding: 35px 0;
+  border: 1px solid black;
+}
+article {
+  padding: 10px;
+  margin: auto;
+  width: 460px;
+  height: 300px;
+  background-color: lightblue;
+  float: left;
+  border: 1px solid black;
+}
+aside {
+  padding: 10px;
+  margin: auto;
+  width: 460px;
+  height: 300px;
+  background-color: lightblue;
+  float: right;
+  border: 1px solid black;
+  text-align: center;
+}
+p{
+  font-size: 12pt;
+}
+footer {
+  text-align: center;
+  border: 1px solid black;
+  height: -5px;
+  padding: 35px 0;
+  position: absolute;
+  width: 1000px;
+  background-color: lightblue;
+  top: 727px;
+}
+th{
+  background-color: grey;
+  padding: 5.4px;
+}
+td{
+  background-color: darkgrey;
+  padding: 5.4px;
+  text-align: center;
+}
+table{
+  height: 280px;
+  border: 1px solid black;
+  background-color: black;
+}
+img:hover{
+  transition: all 1s ease-in-out;
+  transform: scale(1.1, 1.1);
+}
